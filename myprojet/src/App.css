@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bg{
+    background-color: #2454f2d2;
+    height: 100px;
+}
+#navbarScrollingDropdown,#Appropos{
+    padding-left: 50px;
+    color: #fff;
+    font-size: 1.5em;
+
+}
+#me-2{
+    border: 2px solid white;
+    color: #fff;
+}
+#me-2:hover{
+    color: black;
+}
+#acceuil{
+    padding-left: 150px;
+    color: #fff;
+    font-size: 1.5em;
+}
+#navbarScrollingDropdown:hover,#Appropos:hover, #acceuil:hover{
+    color: black;
+    transition: 0.5s ease;
+}
+.App{
+    position: relative;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    display: flex;
+}
+.card{
+margin: 100px 0px 0px 50px;
+}
